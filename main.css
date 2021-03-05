@@ -1,0 +1,57 @@
+/* CSS reset */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  background: url(lev2.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+  border-radius: 10%;
+  padding: 3px;
+  background-color: purple;
+  margin-top: 15px;
+}
+
+body{
+  text-align: center;
+  margin: auto 10%;
+  font-size: 20px;
+  font-family: "courgette";
+  color: darkmagenta;
+}
+
+.name{
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.introduction {
+  margin-top: 25px;
+  background-color: hsla(0, 0%, 100%, .7);
+  border-radius: 20px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  padding: 20px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
+.contact {
+  margin-top: 40px;
+  font-size: 30px;  
+}
+
+a {
+  color: darkmagenta;
+}
