@@ -11,7 +11,7 @@
   background-color: hsla(0, 0%, 100%, .7);
   padding: 20px;
   border-radius: 10%;
-  position: fixed;
+  position: relative;
   text-align: center;
 }
 
@@ -22,7 +22,7 @@ body {
   height: 100vh;
   background: url(lev2.jpg) no-repeat center center fixed;
   background-size: cover;
-  margin: 5% 10%;
+  margin: 0 auto;
 }
 
 img{
@@ -33,7 +33,7 @@ img{
   border-radius: 50%;
   padding: 3px;
   background-color: darkmagenta;
-  margin-top: -35%;
+  margin-top: -30%;
 }
 
 .head{
