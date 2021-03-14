@@ -5,55 +5,55 @@
   font-size: 100%;
 }
 
-body {
-  background: url(lev2.jpg) no-repeat center center fixed;
-  background-size: cover;
-  margin: 5% 10%;
-  
-}
-
-img {
-  width: 40%;
-  height: 50%;
+.profile-card{
+  width: 580px;
+  max-width: calc(100vw - 10px);
+  background-color: hsla(0, 0%, 100%, .7);
+  padding: 20px;
   border-radius: 10%;
-  padding: 3px;
-  background-color: purple;
   position: fixed;
-  top: 45%;
-}
-
-.name{
-  text-transform: uppercase;
-  position: fixed;
-  width: 40%;
-  height: 20%;
-  top: 5%;
-  font-family: "arial";
-  font-size: 30px;
-  color: darkmagenta;
-  line-height: 1.5;
-  font-weight: 600;
   text-align: center;
 }
 
-.introduction {
-  width: 45%;
-  height: 90%;
-  position: fixed;
-  right: 5%;
-  top: 5%;
-  background-color: hsla(0, 0%, 100%, .7);
-  border-radius: 20px;
-  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
-  padding: 20px;
-  font-family: "Courgette", cursive;
-  color: darkmagenta;
-  line-height: 2.5;
-  font-weight: 600;
-  font-size: 27px;
-  text-align: justify;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(lev2.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 5% 10%;
 }
 
+img{
+  position: absolute;
+  left: 5%;
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  padding: 3px;
+  background-color: darkmagenta;
+  margin-top: -35%;
+}
+
+.head{
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: "arial";
+  color: darkmagenta;
+  line-height: 1.5;
+  margin-bottom: 10%;
+}
+.introduction{
+  font-size: 20px;
+  font-family: "Courgette",cursive;
+  color: darkmagenta;
+  line-height: 2;
+  font-weight: 600;
+}
+.name {
+  text-align: right;
+}
 img:hover {
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
@@ -61,13 +61,9 @@ img:hover {
 
 
 .contact {
+  margin-top: 40px;
   font-size: 30px;
-  position: fixed;
-  top: 25%;
-  width: 40%;
-  height: 20%;
-  text-align: center;
- }
+}
 
 a {
   color: darkmagenta;
